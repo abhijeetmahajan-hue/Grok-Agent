@@ -1,0 +1,8 @@
+[
+  { "name": "client_ip", "grokType": "IP", "description": "Client address" },
+  { "name": "timestamp", "grokType": "HTTPDATE", "description": "Request time" },
+  { "name": "method", "grokType": "WORD", "description": "HTTP method" },
+  { "name": "url", "grokType": "URIPATHPARAM", "description": "Request path" },
+  { "name": "status", "grokType": "INT", "description": "Status code" },
+  { "name": "bytes", "grokType": "INT", "description": "Response size" }
+]
